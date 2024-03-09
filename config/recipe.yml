@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
 name: framework
 # description will be included in the image's metadata
-description: My Personal Fork of ublue for my framework laptop running GNOME and zsh
+description: My Personal Fork of ublue for my framework laptop running KDE Plasma and zsh
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-framework
+base-image: ghcr.io/ublue-os/kinoite-framework
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
