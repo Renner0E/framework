@@ -10,7 +10,7 @@
 
 # !! Warning: changing these might not do anything for you. Read comment above.
 ARG IMAGE_MAJOR_VERSION=39
-ARG BASE_IMAGE_URL=ghcr.io/ublue-os/silverblue-framework
+ARG BASE_IMAGE_URL=ghcr.io/ublue-os/kinoite-framework
 
 FROM ${BASE_IMAGE_URL}:${IMAGE_MAJOR_VERSION}
 
